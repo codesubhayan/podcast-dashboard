@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Dashboard</title>
+
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+
+	<!-- bootstrap cdn -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- fontawesome kit -->
+	<script src="https://kit.fontawesome.com/f115102cba.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript" src="https://cdnjs.com/libraries/Chart.js"></script>
+
+	
+</head>
+<body>
+	<input type="checkbox" id="check">
+	<label for="check">
+		<i class="fas fa-arrow-circle-right" id="sidebar_btn"></i>
+<!--         <i class="fas fa-bars" id="sidebar_btn"></i> -->
+      </label>
+	
+    <!--header area start-->
+    
+    <!--header area end-->
+
+
+	<div class="sidebar">
+		
+
+			<div class="user">
+
+				<h4 class="initials">SS</h4>				
+				<button class="btn btn-outline-dark add">+</button>
+
+				<h4>Subhayan Sarkar <span><p>KuJi Podcast</p></span></h4>				
+			</div>
+
+			<a href=""><i class="fas fa-inbox"></i><span>Inbox</span></a>
+			<a href=""><i class="fas fa-bolt"></i><span>Alerts</span></a>
+			<a href="" class="active" style="color: white;"><i class="fas fa-th-large"></i><span>Overview</span></a>
+
+			<p>Podcasts</p>
+			<a href=""><i class="fas fa-microphone"></i><span>Episodes</span></a>
+			<a href=""><i class="fas fa-play-circle"></i><span>Media</span></a>
+			<a href=""><i class="fas fa-file-alt"></i><span>Materials</span></a>
+			<a href=""><i class="fas fa-user-friends"></i><span>Contact</span></a>
+
+			<p>Analytics</p>
+		    <a href=""><i class="fas fa-smile-beam"></i></i><span>Subscribers</span></a>
+			<a href=""><i class="fas fa-binoculars"></i></i><span>Channels</span></a>
+			<a href=""><i class="fas fa-book-reader"></i><span>Integration</span></a>
+			<a href=""><i class="fas fa-chart-line"></i><span>Reports</span></a>	
+
+			<div class="user sidebar-footer">
+				<footer>
+				<i class="fas fa-microphone"></i>
+				<button class="btn btn-outline-dark add">---</button>	
+
+				<h4>PodCaster<span><p>ver 0.2334</p></span></h4>
+				</footer>					
+			</div>		
+	</div>
+
+	 <div class="content">
+	 	<div class="top-board">
+
+	 		<div class="row">
+			  <div class="col-md-3 column">
+			    <div class="card ">
+			      <div class="card-body green">
+			      	<p class="card-title">New Subscribers</p>
+			        <h5 class="card-text">5,097</h5>
+			        
+			        <p class="value"><i class="far fa-arrow-alt-circle-up"></i> +33.45%</p>
+			        
+			      </div>
+			    </div>
+
+			  </div>
+
+			 
+			   
+
+			  <div class="col-md-3 column">
+			    <div class="card">
+			      <div class="card-body red">
+			      	<p class="card-title">Streams</p>
+			        <h5 class="card-text">47,403</h5>
+			        
+			        <p class="value"><i class="far fa-arrow-alt-circle-up"></i> -112.45%</p>
+			        
+			      </div>
+			    </div>
+			    
+			  </div>
+			  
+			  
+			  
+
+			   
+
+			    <div class="col-md-3 column">
+			    <div class="card">
+			      <div class="card-body green">
+			      	<p class="card-title">Engagement Rate</p>
+			        <h5 class="card-text">25.81</h5>
+			        
+			        <p class="value"><i class="far fa-arrow-alt-circle-up"></i> +62.52%</p>
+			        
+			      </div>
+			    </div>
+			    
+			  </div>
+
+			  
+
+
+			    <div class="col-md-3 column">
+			    <div class="card last-card" style="border-style: none;">
+			      <div class="card-body green">
+			      	<p class="card-title">Avg. watch time</p>
+			        <h5 class="card-text">45,4 min</h5>
+			        
+			        <p class="value"><i class="far fa-arrow-alt-circle-up"></i> +4.46%</p>
+			      </div>
+			    </div>
+			  </div>
+
+			</div>
+	 	
+	 	</div>
+
+	 	<div class="card chart" style="width: 48rem;">
+		  
+		  <div class="card-body">
+		   <div class="headline">
+	 		<p>Audience</p>
+	 		<h5>301,907</h5>
+	 		<p class="value"><i class="far fa-arrow-alt-circle-up"></i> for last 12 months</p>
+	 		</div>
+		  </div>
+		<img src="https://miro.medium.com/proxy/1*cU6iTKKs84hEeGsP22MDtw.png" >
+
+		</div>
+
+
+
+
+		 <div id="gauge2" class="gauge-container two" >
+		 	<p>Audience Satisfaction</p>
+		 </div>
+		 <!-- <i class="far fa-smile-beam fa-4x gauge-emoji"></i> -->
+
+
+	<div class="card blogs" style="width: 18rem;">
+  <div class="card-body">
+  	<h6 class="card-subtitle mb-2 ">Webinars <span class="blog-add"><a href="" id="decoration">---</a></span></h6>
+    <h5 class="card-title">Learn how you can earn more than 20% each month!</h5>
+        <p class="card-text">Join our webinar and learn how to increase more than 20% your monthly income.</p>
+    <a href="#" class="card-link blog-link">Read More</a>
+    
+  </div>
+</div>
+
+<!-- <div class="end-section">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div> -->
+
+
+	 	<!-- <div class="chart">
+	 		<div class="headline">
+	 		<p>Audience</p>
+	 		<h5>301,907</h5>
+	 		<p class="value"><i class="far fa-arrow-alt-circle-up"></i> for last 12 months</p>
+	 		</div>
+	 	
+
+			<img src="https://miro.medium.com/proxy/1*cU6iTKKs84hEeGsP22MDtw.png" >
+			
+	 	</div> -->
+
+
+	 </div>	
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	 <script src="gauge/dist/gauge.min.js"></script>
+
+	 <script type="text/javascript">
+	 	// document.getElementById("check").checked = false;
+	 	var check=document.getElementById("check");
+	 	console.log(check.checked);
+	 	var button=$("#sidebar_btn");
+
+
+	 	button.removeClass("fa-arrow-circle-right");
+	 			button.addClass("fa-arrow-circle-left");
+	 			button.removeAttr("id");
+	 			button.css("left","1px");
+	 	button.click(function(){
+
+	 		
+	 		
+	 		if (check.checked)
+	 		{
+	 			
+	 			button.removeClass("fa-arrow-circle-right");
+	 			button.addClass("fa-arrow-circle-left");
+	 			button.removeAttr("id");
+	 			button.css("left","1px");
+
+
+
+	 		}
+	 		else
+	 		{
+	 			button.removeClass("fa-arrow-circle-left");
+	 			button.addClass("fa-arrow-circle-right");
+	 			button.attr("id","sidebar_btn");
+	 			button.css("left","20px");
+	 		}
+	 	});
+
+
+	 	// ----------------------chart-------------------
+	 			 var gauge2 = Gauge(
+    document.getElementById("gauge2"),
+    {
+      min: -100,
+      max: 100,
+      dialStartAngle: 180,
+
+      dialEndAngle: 0,
+      value: 76.7,
+      viewBox: "0 0 100 57",
+      color: function(value) {
+
+      	if(value >70) {
+          return "#07B077"; }
+
+        if(value < 20) {
+          return "#5ee432";
+        }else if(value < 40) {
+          return "#fffa50";
+        }else if(value < 60) {
+          return "#f7aa38";
+        }else {
+          return "#ef4655";
+        }
+      }
+    }
+  );
+
+
+	 	
+
+	 </script>
+
+	
+
+</body>
+</html>
